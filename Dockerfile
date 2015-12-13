@@ -4,4 +4,4 @@ FROM cgswong/vault:latest
 COPY ./lounge.json /app/vault
 
 # run server with config
-CMD ["server" "-config=/app/vault/lounge.json"]
+CMD ["server" "-config=/app/vault"]
